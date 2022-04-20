@@ -2,8 +2,8 @@ import Config
 
 # Configure your database
 config :chatter, Chatter.Repo,
-  username: "hdb",
-  password: "hdb",
+  username: "postgres",
+  password: "kei_kusanagi",
   hostname: "localhost",
   database: "chatter_dev",
   show_sensitive_data_on_connection_error: true,

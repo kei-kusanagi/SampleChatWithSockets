@@ -6,8 +6,8 @@ import Config
 # to provide built-in test partitioning in CI environment.
 # Run `mix help test` for more information.
 config :chatter, Chatter.Repo,
-  username: "hdb",
-  password: "hdb",
+  username: "postgress",
+  password: "kei_kusanagi",
   hostname: "localhost",
   database: "chatter_test#{System.get_env("MIX_TEST_PARTITION")}",
   pool: Ecto.Adapters.SQL.Sandbox,
